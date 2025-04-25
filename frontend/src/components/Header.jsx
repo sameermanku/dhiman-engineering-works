@@ -11,7 +11,7 @@ function Header() {
                     <div className="container-fluid">
                         <div className="row">
                             {/* <div className="col-md-6"> */}
-                            <img src={`${process.env.PUBLIC_URL}/img/icons/clock.png`} className="clock-img" alt="Clock" />
+                            <img src="/img/icons/clock.png" alt="Clock" />
                             <p>Mon - Sat 09:00am - 08:00pm</p>
                             {/* </div> */}
                         </div>
@@ -21,13 +21,13 @@ function Header() {
                 <div className="site-navbar">
                     {/* Logo */}
                     <a href="/" className="site-logo">
-                        <img src={`${process.env.PUBLIC_URL}/img/logo.png`} alt="Logo" />
+                        <img src="/img/logo.png" alt="Logo" />
                     </a>
 
                     <div className="header-right">
                         <div className="header-info-box">
                             <div className="hib-icon">
-                                <img src={`${process.env.PUBLIC_URL}/img/icons/phone.png`} alt="Phone" />
+                                <img src="/img/icons/phone.png" alt="Phone" />
                             </div>
                             <div className="hib-text">
                                 <h6>+91 70091-89097</h6>
@@ -36,7 +36,7 @@ function Header() {
                         </div>
                         <div className="header-info-box">
                             <div className="hib-icon">
-                                <img src={`${process.env.PUBLIC_URL}/img/icons/map-marker.png`} alt="Location" />
+                                <img src="/img/icons/map-marker.png" alt="Location" />
                             </div>
                             <div className="hib-text">
                             <h6>Shop No. 118, Chora Bazar</h6>
