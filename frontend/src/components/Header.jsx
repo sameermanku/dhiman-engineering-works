@@ -19,7 +19,7 @@ function Header() {
                 <div className="site-navbar">
                     {/* Logo */}
                     <a href="/" className="site-logo">
-                        <img src={`${process.env.PUBLIC_URL}/img/logo.png`} alt="Logo" />
+                        <img src="/dhiman-engineering-works/img/logo.png" alt="Logo" />
                     </a>
 
                     <div className="header-right">
