@@ -69,10 +69,10 @@ function Footer() {
               </div>
               <div className="col-lg-7 order-1 order-lg-2 p-0">
                 <ul className="footer-menu">
-                <li><a href="/dhiman-engineering-works/">Home</a></li>
-                <li><a href="/dhiman-engineering-works/about">About us</a></li>
-                <li><a href="/dhiman-engineering-works/services">Services</a></li>
-                <li><a href="/dhiman-engineering-works/contact">Contact</a></li>
+                  <li className="active"><a href="/">Home</a></li>
+                  <li><a href="/about">About us</a></li>
+                  <li><a href="/services">Services</a></li>
+                  <li><a href="/contact">Contact</a></li>
                 </ul>
               </div>
             </div>
